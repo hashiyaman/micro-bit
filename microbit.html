@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>親子で一緒につくろう！ micro:bitゲームプログラミング（ダウンロード特典）</title>
+    <link rel="stylesheet" href="css/microbit.css">
+</head>
+
+<body>
+    <h2>プログラムダウンロード</h2>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>章</th>
+                <th>ゲーム名</th>
+                <th>基本編プログラム</th>
+                <th>応用編プログラム</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3章</td>
+                <td>ミニアクションゲーム</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+            <tr>
+                <td>4章</td>
+                <td>キャッチゲーム</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+            <tr>
+                <td>5章</td>
+                <td>逃走ゲーム</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+            <tr>
+                <td>6章</td>
+                <td>リズムゲーム</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+            <tr>
+                <td>7章</td>
+                <td>シューティングゲーム</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+            <tr>
+                <td>8章</td>
+                <td>無線でパワーアップ</td>
+                <td><a href="https://">リンク</a></td>
+                <td>（基本編のみ）</td>
+            </tr>
+            <tr>
+                <td>9章</td>
+                <td>ゲーム機を作ろう</td>
+                <td><a href="https://">リンク</a></td>
+                <td><a href="https://">リンク</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>ブロックリファレンス</h2>
+    <img src="images/game.png" width="196">
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>ブロック</th>
+                <th>機能</th>
+                <th>パラメータ</th>
+                <th>注意</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/game/create_sprite.png" width="300"></td>
+                <td>新しいスプライトを作成します。</td>
+                <td>
+                    <ul>
+                        <li><span class="param">X: </span>スプライトの横向きの位置（X座標）</li>
+                        <li><span class="param">Y: </span>スプライトの縦向きの位置（Y座標）</li>
+                    </ul>
+                    <p>0と4は画面端を表し、2が中心です。</p>
+                </td>
+                <td>
+                    <ul>
+                        <li>作成されたスプライトは右を向いています。</li>
+                        <li>0より小さい数字を入れると0になります。</li>
+                        <li>4より大きい数字を入れると4になります。</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/game/delete.png" width="300"></td>
+                <td>スプライトを削除します。</td>
+                <td>削除するスプライトの名前</td>
+                <td>削除したスプライトは画面から消えて、他のスプライトと衝突しなくなります。</td>
+            </tr>
+            <tr>
+                <td><img src="images/game/move.png" width="300"></td>
+                <td>スプライトを現在向いている方向に移動します。</td>
+                <td>移動する距離</td>
+                <td>画面端を超えて移動することはありません。</td>
+            </tr>
+            <tr>
+                <td><img src="images/game/turn.png" width="300"></td>
+                <td>スプライトを回転させて、向きを変えます</td>
+                <td>
+                    <ul>
+                        <li><span class="param">向き: </span>右 または 左</li>
+                        <li><span class="param">角度: </span>スプライトを回転させる角度（45°ごと）</li>
+                    </ul>
+                </td>
+                <td>45°ごとではない数字を入れると、直前の45°ごとの数字に変換されます。
+                    <ul>
+                        <li>例）80° → 45°</li>
+                        <li>例）179° → 135°</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/game/bounce.png" width="300"></td>
+                <td>スプライトが画面端にあり、かつ、画面端の方向を向いていれば、反射させます。</td>
+                <td>反射させるスプライトの名前</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="images/game/get.png" width="300"></td>
+                <td>スプライトの様々な情報を取得します。</td>
+                <td>
+                    <ul>
+                        <li><span class="param">X: </span>スプライトのX座標（0-4）</li>
+                        <li><span class="param">Y: </span>スプライトのY座標（0-4）</li>
+                        <li><span class="param">向き: </span>スプライトの向き（角度）</li>
+                        <li><span class="param">明るさ: </span>スプライトの明るさ（0-255）</li>
+                        <li><span class="param">点滅: </span>スプライトの点滅速度（0-10000）</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
