@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# 準備中
+## プログラムダウンロード
 
-You can use the [editor on GitHub](https://github.com/hashiyaman/micro-bit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+| 章  | ゲーム名             | プログラム                               |
+| --- | -------------------- | ---------------------------------------- |
+| 3章 | ミニアクションゲーム | [基本編](https://) / [応用編](https://)  |
+| 4章 | キャッチゲーム       | [基本編](https://) / [応用編](https://)  |
+| 5章 | 逃走ゲーム           | [基本編](https://) / [応用編](https://)  |
+| 6章 | リズムゲーム         | [基本編](https://) / [応用編](https://)  |
+| 7章 | シューティングゲーム | [基本編](https://) /  [応用編](https://) |
+| 8章 | 無線でパワーアップ   | [基本編](https://)                       |
+| 9章 | ゲーム機を作ろう     | [基本編](https://) / [応用編](https://)  |
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## ブロックリファレンス
+| ブロック                                | 機能                           | パラメータ                                                                            | 注意                                                                                                                           |
+| --------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](images/game/create_sprite.png) | 新しいスプライトを作成します。 | **X:** スプライトの横向きの位置（X座標）<br/>**Y:** スプライトの縦向きの位置（Y座標） | 作成されたスプライトは右を向いています。<br/>0より小さい数字を入れると0になります。<br/>4より大きい数字を入れると4になります。 |
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hashiyaman/micro-bit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
