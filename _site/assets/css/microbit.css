@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+div#submenu {
+    width: 160px;
+    margin: 10px 10px 10px 25px;
+    float: left;
+}
+
+div#content {
+    width: 560px;
+    margin: 10px 20px 10px 0px;
+    float: right;
+}
+
+.block {
+    width: 500px;
+}
+
+.block img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+}
+
+.block th {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px #808080 solid;
+    width: 100px;
+}
