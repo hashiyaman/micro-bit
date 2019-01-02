@@ -264,13 +264,13 @@ Small Device Styles
   h5 { font-size: 14px; }
   h6 { font-size: 12px; }
   code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } }
-#sidenav { height: 100%; width: 240px; position: fixed; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
+#sidenav { height: 100%; width: 220px; position: fixed; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
 
 #sidenav a { padding: 6px 8px 6px 10px; text-decoration: none; color: #f1f1f1; display: block; }
 
 #sidenav a:hover { color: #f1f1f1; }
 
-#contents { margin-left: 240px; padding: 0px 10px; }
+#contents { margin-left: 220px; padding: 0px 10px; }
 
 @media screen and (max-height: 450px) { #sidenav { padding-top: 15px; } }
 .block { width: 500px; }
