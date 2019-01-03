@@ -1,5 +1,5 @@
 <span class="breadcrumb">
-    <img src="/assets/images/advanced_block.png"> → <img src="/assets/images/game.png">
+    <img src="{{ site.url }}/assets/images/advanced_block.png"> → <img src="/assets/images/game.png">
 </span>
 
 ## スプライト
