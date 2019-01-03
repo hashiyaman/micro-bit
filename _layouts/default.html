@@ -39,7 +39,7 @@
     -->
 
     <!-- SUB MENU -->
-    {% if site.path != 'README.md' %}
+    {% if page.path != 'README.md' %}
     <div id="main_content_wrap" class="outer">
         <script type="text/javascript">
             $(document).ready(function () {
@@ -98,9 +98,13 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer contents">
         <section id="main_content" class="inner">
+            {% if page.path != 'README.md' %}
             <div id="contents">
                 {{ content }}
             </div>
+            {% else %}
+            {{ content }}
+            {% endif %}
         </section>
     </div>
 
