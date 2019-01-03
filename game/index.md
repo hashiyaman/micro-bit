@@ -1,12 +1,12 @@
 <span class="breadcrumb">
-    <img src="{{ site.baseurl }}/assets/images/advanced_block.png"> → <img src="{{ site.baseurl }}\assets\images\game\sprite\create_sprite.png/assets/images/game.png">
+    <img src="{{ site.baseurl }}/assets/images/advanced_block.png"> → <img src="{{ site.baseurl }}/assets/images/game.png">
 </span>
 
 ## スプライト
 
 <table id="create" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/create_sprite.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/create_sprite.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -35,7 +35,7 @@
 
 <table id="delete" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/delete.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/delete.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -53,7 +53,7 @@
 
 <table id="move" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/move.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/move.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -71,7 +71,7 @@
 
 <table id="turn" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/turn.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/turn.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -99,7 +99,7 @@
 
 <table id="bounce" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/bounce.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/bounce.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -117,7 +117,7 @@
 
 <table id="get" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/get.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/get.png"></td>
         </tr>
     <tr>
         <th>機能</th>
@@ -147,7 +147,7 @@
 
 <table id="set" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/set.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/set.png"></td>
         </tr>
     <tr>
         <th>機能</th>
@@ -174,7 +174,7 @@
 
 <table id="change" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/change.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/change.png"></td>
         </tr>
     <tr>
         <th>機能</th>
@@ -201,7 +201,7 @@
 
 <table id="touching" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/touching.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/touching.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -228,7 +228,7 @@
 
 <table id="touchingEdge" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/sprite/touching_edge.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/sprite/touching_edge.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -257,7 +257,7 @@
 
 <table id="addScore" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/score/add_score.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/score/add_score.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -275,7 +275,7 @@
 
 <table id="score" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/score/score.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/score/score.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -297,7 +297,7 @@
 
 <table id="setScore" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/score/set_score.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/score/set_score.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -317,7 +317,7 @@
 
 <table id="setLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/life/set_life.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/set_life.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -335,7 +335,7 @@
 
 <table id="addLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/life/add_life.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/add_life.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -353,7 +353,7 @@
 
 <table id="removeLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/life/remove_life.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/remove_life.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -373,7 +373,7 @@
 
 <table id="startCountdown" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/control/start_countdown.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/control/start_countdown.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -391,7 +391,7 @@
 
 <table id="gameover" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/control/gameover.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/control/gameover.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -409,7 +409,7 @@
 
 <table id="pause" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/control/pause.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/control/pause.png"></td>
     </tr>
     <tr>
         <th>機能</th>
@@ -427,7 +427,7 @@
 
 <table id="resume" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assetsimages/game/control/resume.png"></td>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/control/resume.png"></td>
     </tr>
     <tr>
         <th>機能</th>
