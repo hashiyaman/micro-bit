@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=d25a4a6f8389a48a9d65e46e34b9fdead5746e70">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=c4d01bcc5022d65586f14a01625bca19e9af73f9">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/js/navgoco/jquery.navgoco.css">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
@@ -59,42 +59,55 @@
 
         <ul id="sidenav" class="nav">
             ブロックリファレンス
+            <li><a href="#">基本</a>
+                <ul>
+                    <li><a href="/basic/#showNumber">数を表示</a></li>
+                    <li><a href="/basic/#showIcon">アイコンを表示</a></li>
+                    <li><a href="/basic/#showLeds">LED画面に表示</a></li>
+                    <li><a href="/basic/#showString">文字列を表示</a></li>
+                    <li><a href="/basic/#clearScreen">表示を消す</a></li>
+                    <li><a href="/basic/#onStart">最初だけ</a></li>
+                    <li><a href="/basic/#forever">ずっと</a></li>
+                    <li><a href="/basic/#pause">一時停止（ミリ秒）</a></li>
+                    <li><a href="/basic/#showArrow">矢印を表示</a></li>
+                </ul>
+            </li>
             <li><a href="#">ゲーム</a>
                 <ul>
                     <li><a href="#">スプライト</a>
                         <ul>
-                            <li><a href="#create">作成する</a></li>
-                            <li><a href="#delete">削除する</a></li>
-                            <li><a href="#move">1ドット進める</a></li>
-                            <li><a href="#turn">方向転換する</a></li>
-                            <li><a href="#bounce">端にあれば反射させる</a></li>
-                            <li><a href="#get">値を取得する</a></li>
-                            <li><a href="#set">値を設定する</a></li>
-                            <li><a href="#change">値を変更する</a></li>
-                            <li><a href="#touching">他のスプライトに触れているか調べる</a></li>
-                            <li><a href="#touchingEdge">画面端にあるか調べる</a></li>
+                            <li><a href="/game/#create">作成する</a></li>
+                            <li><a href="/game/#delete">削除する</a></li>
+                            <li><a href="/game/#move">1ドット進める</a></li>
+                            <li><a href="/game/#turn">方向転換する</a></li>
+                            <li><a href="/game/#bounce">端にあれば反射させる</a></li>
+                            <li><a href="/game/#get">値を取得する</a></li>
+                            <li><a href="/game/#set">値を設定する</a></li>
+                            <li><a href="/game/#change">値を変更する</a></li>
+                            <li><a href="/game/#touching">他のスプライトに触れているか調べる</a></li>
+                            <li><a href="/game/#touchingEdge">画面端にあるか調べる</a></li>
                         </ul>
                     </li>
                     <li><a href="#">点数</a>
                         <ul>
-                            <li><a href="#addScore">増やす</a></li>
-                            <li><a href="#score">取得する</a></li>
-                            <li><a href="#setScore">設定する</a></li>
+                            <li><a href="/game/#addScore">増やす</a></li>
+                            <li><a href="/game/#score">取得する</a></li>
+                            <li><a href="/game/#setScore">設定する</a></li>
                         </ul>
                     </li>
                     <li><a href="#">ライフ</a>
                         <ul>
-                            <li><a href="#addLife">増やす</a></li>
-                            <li><a href="#setLife">設定する</a></li>
-                            <li><a href="#removeLife">減らす</a></li>
+                            <li><a href="/game/#addLife">増やす</a></li>
+                            <li><a href="/game/#setLife">設定する</a></li>
+                            <li><a href="/game/#removeLife">減らす</a></li>
                         </ul>
                     </li>
                     <li><a href="#">ゲームコントロール</a>
                         <ul>
-                            <li><a href="#startCountdown">カウントダウンを開始する</a></li>
-                            <li><a href="#gameover">ゲームオーバーさせる</a></li>
-                            <li><a href="#pause">画面表示を一時停止にする</a></li>
-                            <li><a href="#resume">画面表示を再開にする</a></li>
+                            <li><a href="/game/#startCountdown">カウントダウンを開始する</a></li>
+                            <li><a href="/game/#gameover">ゲームオーバーさせる</a></li>
+                            <li><a href="/game/#pause">画面表示を一時停止にする</a></li>
+                            <li><a href="/game/#resume">画面表示を再開にする</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -109,7 +122,7 @@
             
             <div id="contents">
                 <p><span class="breadcrumb">
-    <img src="http://localhost:4000/assets/images/advanced_block.png" /> → <img src="/assets/images/game.png" />
+    <img src="/assets/images/advanced_block.png" /> → <img src="/assets/images/game.png" />
 </span></p>
 
 <h2 id="スプライト">スプライト</h2>

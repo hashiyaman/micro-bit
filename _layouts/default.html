@@ -51,42 +51,55 @@
 
         <ul id="sidenav" class="nav">
             ブロックリファレンス
+            <li><a href="#">基本</a>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/basic/#showNumber">数を表示</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#showIcon">アイコンを表示</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#showLeds">LED画面に表示</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#showString">文字列を表示</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#clearScreen">表示を消す</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#onStart">最初だけ</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#forever">ずっと</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#pause">一時停止（ミリ秒）</a></li>
+                    <li><a href="{{ site.baseurl }}/basic/#showArrow">矢印を表示</a></li>
+                </ul>
+            </li>
             <li><a href="#">ゲーム</a>
                 <ul>
                     <li><a href="#">スプライト</a>
                         <ul>
-                            <li><a href="#create">作成する</a></li>
-                            <li><a href="#delete">削除する</a></li>
-                            <li><a href="#move">1ドット進める</a></li>
-                            <li><a href="#turn">方向転換する</a></li>
-                            <li><a href="#bounce">端にあれば反射させる</a></li>
-                            <li><a href="#get">値を取得する</a></li>
-                            <li><a href="#set">値を設定する</a></li>
-                            <li><a href="#change">値を変更する</a></li>
-                            <li><a href="#touching">他のスプライトに触れているか調べる</a></li>
-                            <li><a href="#touchingEdge">画面端にあるか調べる</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#create">作成する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#delete">削除する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#move">1ドット進める</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#turn">方向転換する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#bounce">端にあれば反射させる</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#get">値を取得する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#set">値を設定する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#change">値を変更する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#touching">他のスプライトに触れているか調べる</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#touchingEdge">画面端にあるか調べる</a></li>
                         </ul>
                     </li>
                     <li><a href="#">点数</a>
                         <ul>
-                            <li><a href="#addScore">増やす</a></li>
-                            <li><a href="#score">取得する</a></li>
-                            <li><a href="#setScore">設定する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#addScore">増やす</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#score">取得する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#setScore">設定する</a></li>
                         </ul>
                     </li>
                     <li><a href="#">ライフ</a>
                         <ul>
-                            <li><a href="#addLife">増やす</a></li>
-                            <li><a href="#setLife">設定する</a></li>
-                            <li><a href="#removeLife">減らす</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#addLife">増やす</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#setLife">設定する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#removeLife">減らす</a></li>
                         </ul>
                     </li>
                     <li><a href="#">ゲームコントロール</a>
                         <ul>
-                            <li><a href="#startCountdown">カウントダウンを開始する</a></li>
-                            <li><a href="#gameover">ゲームオーバーさせる</a></li>
-                            <li><a href="#pause">画面表示を一時停止にする</a></li>
-                            <li><a href="#resume">画面表示を再開にする</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#startCountdown">カウントダウンを開始する</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#gameover">ゲームオーバーさせる</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#pause">画面表示を一時停止にする</a></li>
+                            <li><a href="{{ site.baseurl }}/game/#resume">画面表示を再開にする</a></li>
                         </ul>
                     </li>
                 </ul>
