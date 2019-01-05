@@ -279,7 +279,7 @@ Small Device Styles
 
 .block { width: 600px; }
 
-.block img { display: block; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; }
+.block img { margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 100%; height: auto; }
 
 .block th { text-align: center; display: table-cell; vertical-align: middle; border: 1px #808080 solid; width: 100px; }
 

@@ -9,17 +9,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/js/navgoco/jquery.navgoco.css">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>プログラムダウンロード | micro-bit</title>
+<title>micro-bit | micro:bitの日本語版ブロックリファレンス用のページ</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="プログラムダウンロード" />
+<meta property="og:title" content="micro-bit" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="micro:bitの日本語版ブロックリファレンス用のページ" />
 <meta property="og:description" content="micro:bitの日本語版ブロックリファレンス用のページ" />
-<link rel="canonical" href="http://localhost:4000/download/" />
-<meta property="og:url" content="http://localhost:4000/download/" />
+<link rel="canonical" href="http://localhost:4000/blocks/basic/" />
+<meta property="og:url" content="http://localhost:4000/blocks/basic/" />
 <meta property="og:site_name" content="micro-bit" />
 <script type="application/ld+json">
-{"description":"micro:bitの日本語版ブロックリファレンス用のページ","@type":"WebPage","url":"http://localhost:4000/download/","headline":"プログラムダウンロード","@context":"http://schema.org"}</script>
+{"description":"micro:bitの日本語版ブロックリファレンス用のページ","@type":"WebPage","url":"http://localhost:4000/blocks/basic/","headline":"micro-bit","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -192,53 +192,182 @@
         <section id="main_content" class="inner">
             
             <div id="contents">
-                <h2 id="プログラムダウンロード">プログラムダウンロード</h2>
+                <p><span class="breadcrumb">
+    <img src="/assets/images/basic.png" />
+</span></p>
 
-<table>
-  <thead>
+<table id="showNumber" class="block">
     <tr>
-      <th>章</th>
-      <th>ゲーム名</th>
-      <th>プログラム</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3章</td>
-      <td>ミニアクションゲーム</td>
-      <td><a href="https://">基本編</a> / <a href="https://">応用編</a></td>
+        <td colspan="2"><img src="/assets/images/basic/showNumber.png" /></td>
     </tr>
     <tr>
-      <td>4章</td>
-      <td>キャッチゲーム</td>
-      <td><a href="https://">基本編</a> / <a href="https://">応用編</a></td>
+        <th>機能</th>
+        <td>画面上に数字を表示します。</td>
     </tr>
     <tr>
-      <td>5章</td>
-      <td>逃走ゲーム</td>
-      <td><a href="https://">基本編</a> / <a href="https://">応用編</a></td>
+        <th>パラメータ</th>
+        <td>表示する数字</td>
     </tr>
     <tr>
-      <td>6章</td>
-      <td>リズムゲーム</td>
-      <td><a href="https://">基本編</a> / <a href="https://">応用編</a></td>
+        <th>注意</th>
+        <td>
+            <ul>
+                <li>2桁以上の数はスクロールして表示されます。</li>
+                <li>小数の場合、小数点第3位で四捨五入されます（例: 3.1415 -&gt; 3.14）</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table id="showIcon" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/showIcon.png" /></td>
     </tr>
     <tr>
-      <td>7章</td>
-      <td>シューティングゲーム</td>
-      <td><a href="https://">基本編</a> /  <a href="https://">応用編</a></td>
+        <th>機能</th>
+        <td>画面上に指定したアイコンを表示します。</td>
     </tr>
     <tr>
-      <td>8章</td>
-      <td>無線でパワーアップ</td>
-      <td><a href="https://">基本編</a></td>
+        <th>パラメータ</th>
+        <td>表示するアイコン（選択）</td>
     </tr>
     <tr>
-      <td>9章</td>
-      <td>ゲーム機を作ろう</td>
-      <td><a href="https://">基本編</a> / <a href="https://">応用編</a></td>
+        <th>注意</th>
+        <td>特になし。</td>
     </tr>
-  </tbody>
+</table>
+
+<table id="showLeds" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/showLeds.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>画面上に指定したLEDを表示します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>表示するLED（マス目をクリックすると、ON/OFFが選択可能）</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>特になし。</td>
+    </tr>
+</table>
+
+<table id="showString" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/showString.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>画面上に文字列を表示します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>表示する文字列</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>
+            <ul>
+                <li>2文字以上の文字列はスクロールして表示されます。</li>
+                <li>表示できるのは、数字とアルファベットのみです。</li>
+                <li>ツールボックス最下部の拡張機能から「katakana」パッケージをインストールするとカタカナの表示が可能です。</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table id="clearScreen" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/clearScreen.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>すべてのLED表示をOFFにします。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>特になし。</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>特になし。</td>
+    </tr>
+</table>
+
+<table id="onStart" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/onStart.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>この中に連結されたブロックを、プログラム起動時に1回だけ実行します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>特になし。</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>他のどのブロックよりも先に実行されます。</td>
+    </tr>
+</table>
+
+<table id="forever" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/forever.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>この中に連結されたブロックを、繰り返して実行します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>特になし。</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>「ずっと」が複数存在する場合、それぞれが別々に中のブロックを実行します。</td>
+    </tr>
+</table>
+
+<table id="pause" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/pause.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>指定された時間、ブロックの実行を一時停止します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>一時停止する時間（ミリ秒）</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>一時停止するのは、同じ「最初だけ」「ずっと」などのブロックに連結している直後のブロックのみです。ほかの「ずっと」などの処理は動き続けます。
+        </td>
+    </tr>
+</table>
+
+<table id="showArrow" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/basic/showArrow.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>画面上に指定した矢印を表示します。</td>
+    </tr>
+    <tr>
+        <th>パラメータ</th>
+        <td>表示する矢印（8方向から選択）</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>特になし。</td>
+    </tr>
 </table>
 
             </div>
