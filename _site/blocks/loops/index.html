@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=1c9a3d482c7dc3ada0c065a50109af3fcb25730b">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=6a4ea12e798f7e84b19b77c2cf1b5f100cf09eba">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/js/navgoco/jquery.navgoco.css">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
@@ -32,22 +32,15 @@
     <!-- HEADER -->
     <!--
     <div id="header_wrap" class="outer">
-        <header class="inner">
-            
-            <a id="forkme_banner" href="http://github.com/hashiyaman/micro-bit">View
-                on GitHub</a>
-            
-
-            <h1 id="project_title">micro-bit</h1>
-            <h2 id="project_tagline">micro:bitの日本語版ブロックリファレンス用のページ</h2>
-
-            
+        <header id="contents_header">
+            <h1 id="project_title">micro:bit日本語版ブロックリファレンス</h1>
         </header>
     </div>
     -->
 
     <!-- SUB MENU -->
     
+
     <div id="main_content_wrap" class="outer">
         <script type="text/javascript">
             $(document).ready(function () {
@@ -115,7 +108,24 @@
             </li>
             <li><a href="#">論理</a>
                 <ul>
-                    <li><a href="/blocks/logic/#"></a></li>
+                    <li><a href="#">条件判断</a>
+                        <ul>
+                            <li><a href="/blocks/logic/#if">もし～なら</a></li>
+                            <li><a href="/blocks/logic/#ifElse">もし～なら～でなければ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">くらべる</a>
+                        <ul>
+                            <li><a href="/blocks/logic/#equal">0 = 0</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">真偽値</a>
+                        <ul>
+                            <li><a href="/blocks/logic/#and">かつ・または</a></li>
+                            <li><a href="/blocks/logic/#not">ではない</a></li>
+                            <li><a href="/blocks/logic/#true">真・偽</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li><a href="#">変数</a>
@@ -202,7 +212,7 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>この中に連結したブロックを、指定した回数だけくりかえして実行します。</td>
+        <td>この中に連結したブロックを、指定した回数だけ、くりかえし実行します。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
@@ -220,7 +230,7 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>この中に連結したブロックを、指定した条件に当てはまる限り実行します。</td>
+        <td>この中に連結したブロックを、指定した条件に当てはまる限り、くりかえし実行します。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
@@ -243,7 +253,7 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>この中に連結したブロックを、0から指定した数になるまで1ずつ増やしながら実行します。</td>
+        <td>この中に連結したブロックを、0から指定した数になるまで1ずつ増やしながら、くりかえし実行します。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
@@ -259,7 +269,7 @@
         <td>
             <ul>
                 <li>くりかえしは0から始まるため、くりかえす回数で指定された数よりも1回多く中のブロックは実行されます。</li>
-                <li>カウンターはこのブロックの中でのみ有効な変数です。ブロックの外でカウンターを利用しようとしても、別の変数として扱われます。</li>
+                <li><span class="param">カウンター</span>はこのブロックの中でのみ有効な変数です。ブロックの外で<span class="param">カウンター</span>を利用しようとしても、別の変数として扱われます。</li>
             </ul>
         </td>
     </tr>
@@ -271,7 +281,7 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>この中に連結したブロックを、指定された配列の要素の数だけ実行します。配列の要素すべてに対して何かをしたいときに利用します。</td>
+        <td>この中に連結したブロックを、指定された配列の要素の数だけ、くりかえし実行します。配列の要素すべてに対して何かをしたいときに利用します。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
@@ -285,7 +295,7 @@
     <tr>
         <th>注意</th>
         <td>
-            <li>配列の要素を繰り返すだけです。</li>
+            <li><span class="param">値</span>はこのブロックの中でのみ有効な変数です。ブロックの外で<span class="param">値</span>を利用しよとしても、別の変数として扱われます。</li>
         </td>
     </tr>
 </table>
@@ -298,6 +308,9 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
         <footer class="inner">
+            <p class="copyright">
+                <a href="/">前のページに戻る</a>
+            </p>
             
             <p class="copyright">micro-bit maintained by <a href="http://github.com/hashiyaman">hashiyaman</a></p>
             

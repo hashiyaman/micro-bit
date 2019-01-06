@@ -270,6 +270,8 @@ Small Device Styles
 
 #sidenav a:hover { color: #f1f1f1; }
 
+#contents_header { font-size: 16px; margin-left: 300px; padding: 10px; }
+
 #contents { margin-left: 220px; padding: 0px 10px; }
 
 @media screen and (max-height: 450px) { #sidenav { padding-top: 15px; } }
