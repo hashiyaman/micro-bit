@@ -104,7 +104,7 @@
     </tr>
     <tr>
         <th>戻り値</th>
-        <td>真偽値テーブル</td>
+        <td>作成中</td>
     </tr>
     <tr>
         <th>注意</th>
@@ -119,28 +119,24 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>作成中</td>
+        <td>指定された条件と反対（否定）である真偽値を返します。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
-        <td>
-            <ul>
-                <li><span class="param"> </span>作成中</li>
-            </ul>
-        </td>
+        <td>反対にしたい条件</td>
     </tr>
     <tr>
         <th>戻り値</th>
         <td>
             <ul>
-                <li><span class="param">真: </span>2つのスプライトが同じ位置にある場合</li>
-                <li><span class="param">偽: </span>2つのスプライトが同じ位置にない場合</li>
+                <li><span class="param">真: </span>指定された条件が「偽」のとき</li>
+                <li><span class="param">偽: </span>指定された条件が「真」のとき</li>
             </ul>
         </td>
     </tr>
     <tr>
         <th>注意</th>
-        <td>作成中</td>
+        <td>「条件 = 偽」と同じ値が返ります。</td>
     </tr>
 </table>
 
@@ -150,28 +146,19 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>作成中</td>
+        <td>「真」または「偽」を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
     </tr>
     <tr>
         <th>パラメータ</th>
-        <td>
-            <ul>
-                <li><span class="param"> </span>作成中</li>
-            </ul>
-        </td>
+        <td>「真」または「偽」</td>
     </tr>
     <tr>
         <th>戻り値</th>
-        <td>
-            <ul>
-                <li><span class="param">真: </span>2つのスプライトが同じ位置にある場合</li>
-                <li><span class="param">偽: </span>2つのスプライトが同じ位置にない場合</li>
-            </ul>
-        </td>
+        <td>「真」または「偽」</td>
     </tr>
     <tr>
         <th>注意</th>
-        <td>作成中</td>
+        <td>特になし。</td>
     </tr>
 </table>
 

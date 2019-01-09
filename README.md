@@ -12,12 +12,12 @@
 | 章  | ゲーム名             | プログラム                                                                                                     |
 | --- | -------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 3章 | ミニアクションゲーム | [基本編](https://makecode.microbit.org/_8cXUfyHtC4fq) / [応用編](https://makecode.microbit.org/_L3y8pJgAe6br)  |
-| 4章 | キャッチゲーム       | [基本編](https://makecode.microbit.org/_65F7PFPJp497) / [応用編](https://makecode.microbit.org/_ghdhW5Jst58U)  |
-| 5章 | 逃走ゲーム           | [基本編](https://makecode.microbit.org/_DaHFArcHuRUD) / [応用編](https://makecode.microbit.org/_bfo71e0i81i3)  |
+| 4章 | キャッチゲーム       | [基本編](https://makecode.microbit.org/_65F7PFPJp497) / [応用編](https://makecode.microbit.org/_HR46kpazz8mH)  |
+| 5章 | 逃走ゲーム           | [基本編](https://makecode.microbit.org/_MaMbbC5hwHib) / [応用編](https://makecode.microbit.org/_bfo71e0i81i3)  |
 | 6章 | リズムゲーム         | [基本編](https://makecode.microbit.org/_iq9DCidAc1Uz) / [応用編](https://makecode.microbit.org/_PTu1z5UPxMfc)  |
 | 7章 | シューティングゲーム | [基本編](https://makecode.microbit.org/_dC0XzhWh0FUF) /  [応用編](https://makecode.microbit.org/_TYcCX0DM6EEY) |
 | 8章 | 無線でパワーアップ   | [基本編](https://makecode.microbit.org/_iAzAapbbVYXq)                                                          |
-| 9章 | ゲーム機を作ろう     | [基本編](https://makecode.microbit.org/_i580wfUCmJo4) / [応用編](https://makecode.microbit.org/_Y38gRg2AYLfL)  |
+| 9章 | ゲーム機を作ろう     | [基本編](https://makecode.microbit.org/_eTkUC2Dfs4ib) / [応用編](https://makecode.microbit.org/_1EAckCVRA6eA)  |
 
 ## 付録2
-<a href="{{ site.baseurl }}/blocks/">ブロックリファレンス</a>
+<a href="{{ site.baseurl }}/blocks/">ブロックリファレンス（随時更新）</a>
