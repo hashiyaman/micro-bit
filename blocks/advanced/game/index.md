@@ -317,7 +317,10 @@
 
 <table id="setLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/setLife.png"></td>
+        <td colspan="2">
+            <img src="{{ site.baseurl }}/assets/images/game/life/setLife.png">
+            <img src="{{ site.baseurl }}/assets/images/game/life/setLife2.png">
+        </td>
     </tr>
     <tr>
         <th>機能</th>
@@ -335,7 +338,10 @@
 
 <table id="addLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/addLife.png"></td>
+        <td colspan="2">
+            <img src="{{ site.baseurl }}/assets/images/game/life/addLife.png">
+            <img src="{{ site.baseurl }}/assets/images/game/life/addLife2.png">
+        </td>
     </tr>
     <tr>
         <th>機能</th>
@@ -353,7 +359,10 @@
 
 <table id="removeLife" class="block">
     <tr>
-        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/game/life/removeLife.png"></td>
+        <td colspan="2">
+            <img src="{{ site.baseurl }}/assets/images/game/life/removeLife.png">
+            <img src="{{ site.baseurl }}/assets/images/game/life/removeLife2.png">
+        </td>
     </tr>
     <tr>
         <th>機能</th>
