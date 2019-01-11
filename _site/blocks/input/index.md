@@ -11,7 +11,7 @@
         <td>この中に連結されたブロックを、ボタンA、BまたはAとBの両方が押されたときに実行します。</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param">A: </span>Aボタンが押されたときに実行</li>
@@ -36,7 +36,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -58,7 +58,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -80,7 +80,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -106,7 +106,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -132,7 +132,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -158,7 +158,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -184,7 +184,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -210,7 +210,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -236,7 +236,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -262,7 +262,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -288,7 +288,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -314,7 +314,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
@@ -340,7 +340,7 @@
         <td>作成中</td>
     </tr>
     <tr>
-        <th>パラメータ</th>
+        <th>入力値</th>
         <td>
             <ul>
                 <li><span class="param"> </span>作成中</li>
