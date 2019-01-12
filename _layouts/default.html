@@ -4,9 +4,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/js/navgoco/jquery.navgoco.css' | relative_url }}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     {% seo %}
 </head>
@@ -15,6 +16,12 @@
     <script type="text/javascript" src="{{ '/assets/js/jquery-latest.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/navgoco/jquery.cookie.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/navgoco/jquery.navgoco.min.js' | relative_url }}"></script>
+
+    <!-- 
+    <script type="text/javascript" src="{{ '/assets/js/blockly/blockly_compressed.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/blockly/blocks_compressed.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/blockly/msg/js/ja.js' | relative_url }}"></script>
+    -->
 
     <!-- HEADER -->
     <!--
@@ -28,11 +35,33 @@
     <!-- SUB MENU -->
     {% if page.path != 'README.md' %}
 
+    <div id="page_top">
+        <a href="#"></a>
+    </div>
+
     <div id="main_content_wrap" class="outer">
         <script type="text/javascript">
             $(document).ready(function () {
                 $('#sidenav').navgoco({
                     accordion: true
+                });
+            });
+
+            $(function () {
+                var pagetop = $('#page_top');
+                pagetop.hide();
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        pagetop.fadeIn();
+                    } else {
+                        pagetop.fadeOut();
+                    }
+                });
+                pagetop.click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
                 });
             });
         </script>

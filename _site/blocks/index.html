@@ -4,9 +4,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=191aff30ab0fb9f8705e11eeba534a15ebfe924b">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=6ed28a13ffd787eef89c4bb4a0a02b6f12499731">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/js/navgoco/jquery.navgoco.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>micro-bit | micro:bitの日本語版ブロックリファレンス用のページ</title>
@@ -29,6 +30,12 @@
     <script type="text/javascript" src="/assets/js/navgoco/jquery.cookie.min.js"></script>
     <script type="text/javascript" src="/assets/js/navgoco/jquery.navgoco.min.js"></script>
 
+    <!-- 
+    <script type="text/javascript" src="/assets/js/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="/assets/js/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="/assets/js/blockly/msg/js/ja.js"></script>
+    -->
+
     <!-- HEADER -->
     <!--
     <div id="header_wrap" class="outer">
@@ -41,11 +48,33 @@
     <!-- SUB MENU -->
     
 
+    <div id="page_top">
+        <a href="#"></a>
+    </div>
+
     <div id="main_content_wrap" class="outer">
         <script type="text/javascript">
             $(document).ready(function () {
                 $('#sidenav').navgoco({
                     accordion: true
+                });
+            });
+
+            $(function () {
+                var pagetop = $('#page_top');
+                pagetop.hide();
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        pagetop.fadeIn();
+                    } else {
+                        pagetop.fadeOut();
+                    }
+                });
+                pagetop.click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
                 });
             });
         </script>
@@ -219,6 +248,51 @@
             
             <div id="contents">
                 <p>左のメニューからブロックを選んでください。ブロックリファレンスは随時更新する予定です。</p>
+
+<!-- 
+<div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+
+<xml id="toolbox" style="display: none">
+    <block type="create_sprite"></block>
+    <block type="controls_if"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="logic_compare"></block>
+    <block type="math_number"></block>
+    <block type="math_arithmetic"></block>
+    <block type="text"></block>
+    <block type="text_print"></block>  
+</xml>
+
+<script>
+    Blockly.Blocks['create_sprite'] = {
+        init: function () {
+            this.jsonInit({
+                "message0": 'スプライトを作成 X:%1 Y:%2',
+                "args0": [
+                    {
+                        "type": "input_value",
+                        "name": "VALUE",
+                        "check": "Number"
+                    },
+                    {
+                        "type": "input_value",
+                        "name": "VALUE",
+                        "check": "Number"
+                    }
+                ],
+                "output": "Number",
+                "colour": 160,
+                "tooltip": "Returns number of letters in the provided text.",
+                "helpUrl": "http://www.w3schools.com/jsref/jsref_length_string.asp"
+            });
+        }
+    };
+
+    var workspace = Blockly.inject('blocklyDiv',
+        {toolbox: document.getElementById('toolbox')});
+</script>
+
+-->
 
             </div>
             
