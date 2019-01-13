@@ -53,11 +53,8 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>指定された2つの値を比べて、結果を返します。</td>
-    </tr>
-    <tr>
-        <th>入力値</th>
         <td>
+            <p>指定された2つの値を比べて、結果を返します。</p>
             <ul>
                 <li><span class="param">=: </span>値が同じであるかどうか調べる</li>
                 <li><span class="param">&ne;: </span>値が異なるかどうか調べる</li>
@@ -67,6 +64,10 @@
                 <li><span class="param">&ge;: </span>左側の値が右側以上か調べる</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>調べる値</td>
     </tr>
     <tr>
         <th>戻り値</th>
@@ -91,27 +92,53 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>指定された2つの条件をしらべて、結果を返します。</td>
+        <td>指定された2つの条件が共に成り立つかどうか調べます。</td>
     </tr>
     <tr>
         <th>入力値</th>
+        <td>調べる条件</td>
+    </tr>
+    <tr>
+        <th>戻り値</th>
         <td>
             <ul>
-                <li><span class="param">かつ: </span>2つの条件が共に成り立つかどうか調べる</li>
-                <li><span class="param">または: </span>2つの条件のどちらか一方が成り立つか調べる</li>
+                <li><span class="param">真: </span>両方の条件があてはまるとき</li>
+                <li><span class="param">偽: </span>どちらか一方の条件があてはまらないとき</li>
             </ul>
         </td>
     </tr>
     <tr>
-        <th>戻り値</th>
-        <td>作成中</td>
-    </tr>
-    <tr>
         <th>注意</th>
-        <td>作成中</td>
+        <td>1つ目の条件が当てはまらないときは、2つ目の条件がどうであれ、必ず<span class="param">偽</span>になります。</td>
     </tr>
 </table>
 
+<table id="or" class="block">
+    <tr>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/logic/or.png"></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>指定された2つの条件のどちらか一方が成り立つかどうか調べます。</td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>調べる条件</td>
+    </tr>
+    <tr>
+        <th>戻り値</th>
+        <td>
+            <ul>
+                <li><span class="param">真: </span>どちらかの一方の条件があてはまるとき</li>
+                <li><span class="param">偽: </span>両方の条件があてはまらないとき</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>1つ目の条件が当てはまるときは、2つ目の条件がどうであれ、必ず<span class="param">真</span>になります。</td>
+    </tr>
+</table>
 
 <table id="not" class="block">
     <tr>
@@ -146,15 +173,37 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>「真」または「偽」を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
+        <td>常に<span class="param">真</span>を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
     </tr>
     <tr>
         <th>入力値</th>
-        <td>「真」または「偽」</td>
+        <td>特になし</td>
     </tr>
     <tr>
         <th>戻り値</th>
-        <td>「真」または「偽」</td>
+        <td>真</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>特になし。</td>
+    </tr>
+</table>
+
+<table id="false" class="block">
+    <tr>
+        <td colspan="2"><img src="{{ site.baseurl }}/assets/images/logic/false.png"></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>常に<span class="param">偽</span>を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>特になし</td>
+    </tr>
+    <tr>
+        <th>戻り値</th>
+        <td>偽</td>
     </tr>
     <tr>
         <th>注意</th>

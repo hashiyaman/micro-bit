@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=6ed28a13ffd787eef89c4bb4a0a02b6f12499731">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=17e7158c545d6fdcae7ee122d83a8ee21c4afb20">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/js/navgoco/jquery.navgoco.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -134,6 +134,8 @@
                 </ul>
             </li>
 
+            -->
+
             <li><a href="#">ループ</a>
                 <ul>
                     <li><a href="/blocks/loops/#repeat">くりかえし〇回</a></li>
@@ -158,13 +160,16 @@
                     </li>
                     <li><a href="#">真偽値</a>
                         <ul>
-                            <li><a href="/blocks/logic/#and">かつ・または</a></li>
+                            <li><a href="/blocks/logic/#and">かつ</a></li>
+                            <li><a href="/blocks/logic/#or">または</a></li>
                             <li><a href="/blocks/logic/#not">ではない</a></li>
                             <li><a href="/blocks/logic/#true">真・偽</a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
+
+            <!--
 
             <li><a href="#">変数</a>
                 <ul>
@@ -302,11 +307,8 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>指定された2つの値を比べて、結果を返します。</td>
-    </tr>
-    <tr>
-        <th>入力値</th>
         <td>
+            <p>指定された2つの値を比べて、結果を返します。</p>
             <ul>
                 <li><span class="param">=: </span>値が同じであるかどうか調べる</li>
                 <li><span class="param">&ne;: </span>値が異なるかどうか調べる</li>
@@ -316,6 +318,10 @@
                 <li><span class="param">&ge;: </span>左側の値が右側以上か調べる</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>調べる値</td>
     </tr>
     <tr>
         <th>戻り値</th>
@@ -340,24 +346,51 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>指定された2つの条件をしらべて、結果を返します。</td>
+        <td>指定された2つの条件が共に成り立つかどうか調べます。</td>
     </tr>
     <tr>
         <th>入力値</th>
+        <td>調べる条件</td>
+    </tr>
+    <tr>
+        <th>戻り値</th>
         <td>
             <ul>
-                <li><span class="param">かつ: </span>2つの条件が共に成り立つかどうか調べる</li>
-                <li><span class="param">または: </span>2つの条件のどちらか一方が成り立つか調べる</li>
+                <li><span class="param">真: </span>両方の条件があてはまるとき</li>
+                <li><span class="param">偽: </span>どちらか一方の条件があてはまらないとき</li>
             </ul>
         </td>
     </tr>
     <tr>
+        <th>注意</th>
+        <td>1つ目の条件が当てはまらないときは、2つ目の条件がどうであれ、必ず<span class="param">偽</span>になります。</td>
+    </tr>
+</table>
+
+<table id="or" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/logic/or.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>指定された2つの条件のどちらか一方が成り立つかどうか調べます。</td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>調べる条件</td>
+    </tr>
+    <tr>
         <th>戻り値</th>
-        <td>作成中</td>
+        <td>
+            <ul>
+                <li><span class="param">真: </span>どちらかの一方の条件があてはまるとき</li>
+                <li><span class="param">偽: </span>両方の条件があてはまらないとき</li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <th>注意</th>
-        <td>作成中</td>
+        <td>1つ目の条件が当てはまるときは、2つ目の条件がどうであれ、必ず<span class="param">真</span>になります。</td>
     </tr>
 </table>
 
@@ -394,15 +427,37 @@
     </tr>
     <tr>
         <th>機能</th>
-        <td>「真」または「偽」を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
+        <td>常に<span class="param">真</span>を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
     </tr>
     <tr>
         <th>入力値</th>
-        <td>「真」または「偽」</td>
+        <td>特になし</td>
     </tr>
     <tr>
         <th>戻り値</th>
-        <td>「真」または「偽」</td>
+        <td>真</td>
+    </tr>
+    <tr>
+        <th>注意</th>
+        <td>特になし。</td>
+    </tr>
+</table>
+
+<table id="false" class="block">
+    <tr>
+        <td colspan="2"><img src="/assets/images/logic/false.png" /></td>
+    </tr>
+    <tr>
+        <th>機能</th>
+        <td>常に<span class="param">偽</span>を返します。条件判断の際に、変数が成り立つかどうかを調べるときに使います。</td>
+    </tr>
+    <tr>
+        <th>入力値</th>
+        <td>特になし</td>
+    </tr>
+    <tr>
+        <th>戻り値</th>
+        <td>偽</td>
     </tr>
     <tr>
         <th>注意</th>

@@ -264,23 +264,25 @@ Small Device Styles
   h5 { font-size: 14px; }
   h6 { font-size: 12px; }
   code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } }
-@media screen and (min-width: 601px) { #sidenav { height: 100%; width: 220px; position: fixed; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
-  #sidenav a { padding: 6px 8px 6px 10px; text-decoration: none; color: #f1f1f1; display: block; }
-  #sidenav a:hover { color: #f1f1f1; }
+@media screen and (min-width: 1036px) { #sidenav { height: 100%; width: 220px; position: fixed; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
   #contents_header { font-size: 16px; margin-left: 300px; padding: 10px; }
-  #contents { margin-left: 220px; padding: 0px 10px; }
-  .breadcrumb { font-size: 20px; font-weight: bold; white-space: nowrap; }
-  .breadcrumb img { width: 200px; }
-  .block { width: 600px; }
-  .block img { margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 100%; height: auto; }
-  .block th { text-align: center; display: table-cell; vertical-align: middle; border: 1px #808080 solid; width: 100px; } }
-@media screen and (max-width: 600px) { #sidenav { height: 100%; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
-  #sidenav a { padding: 6px 8px 6px 10px; text-decoration: none; color: #f1f1f1; display: block; }
-  #sidenav a:hover { color: #f1f1f1; }
+  #contents { margin-left: 120px; padding: 0px 10px; }
+  .block { width: 600px; } }
+@media screen and (max-width: 1035px) { #sidenav { height: 100%; z-index: 1; top: 0; left: 0; color: #f1f1f1; background-color: #5a138a; overflow-x: hidden; padding-top: 20px; }
   #contents { padding: 0px 10px; }
-  .breadcrumb { font-size: 20px; font-weight: bold; white-space: nowrap; }
-  .breadcrumb img { width: 200px; }
   #page_top { z-index: 1; width: 50px; height: 50px; position: fixed; right: 5px; bottom: 5px; background: #808080; opacity: 0.6; }
   #page_top a { position: relative; display: block; width: 50px; height: 50px; text-decoration: none; }
   #page_top a::before { font-family: FontAwesome; content: '\f102'; font-size: 25px; color: #fff; position: absolute; width: 25px; height: 25px; top: 0; bottom: 0; right: 0; left: 0; margin: auto; text-align: center; } }
+#sidenav a { padding: 6px 8px 6px 10px; text-decoration: none; color: #f1f1f1; display: block; }
+
+#sidenav a:hover { color: #f1f1f1; }
+
+.breadcrumb { font-size: 20px; font-weight: bold; white-space: nowrap; }
+
+.breadcrumb img { width: 200px; }
+
+.block img { margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 80%; max-height: 80%; width: auto; height: auto; }
+
+.block th { text-align: center; display: table-cell; vertical-align: middle; border: 1px #808080 solid; width: 100px; }
+
 .param { font-weight: bold; }
