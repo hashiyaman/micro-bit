@@ -21,3 +21,9 @@
 
 ## 付録2
 <a href="{{ site.baseurl }}/blocks/">ブロックリファレンス（随時更新）</a>
+
+## 付録3
+本書130ページの「ゲーム機を作ろう！」の型紙をダウンロードできます
+<p>
+    <a href="{{ site.baseurl }}/assets/other/pattern.pdf">型紙_A4横(PDF)</a>
+</p>
