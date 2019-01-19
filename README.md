@@ -1,7 +1,6 @@
 ## 書籍紹介
-親子で一緒につくろう！ micro:bitゲームプログラミング
-
 **English version is available [here](https://sites.google.com/site/microbitgamebook/)**
+親子で一緒につくろう！ micro:bitゲームプログラミング
 
 - <a href="https://www.amazon.co.jp/dp/4798158437">Amazon（単行本）</a>
 - <a href="https://www.amazon.co.jp/dp/B07KS7DCSH/">Amazon（Kindle版）</a>
